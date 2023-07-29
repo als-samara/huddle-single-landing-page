@@ -1,0 +1,84 @@
+@media(max-width: 1140px) {
+    .section .illustration img {
+        max-width: 600px;
+    }
+
+    .section .description a {
+        align-self: center;
+    }
+
+    .section .social {
+        left: 8rem;
+    }
+}
+
+@media(max-width: 992px) {
+    body {
+        background: url(../images/bg-mobile.svg) center center no-repeat;
+        background-size: contain;
+    }
+
+    .section {
+        grid-template-areas: "logo-container"
+            "illustration"
+            "description"
+            "social";
+        grid-template-columns: 1fr;
+    }
+
+    .section .illustration,
+    .section .description {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .section .illustration img {
+        max-width: 550px;
+    }
+
+    .section .description {
+        text-align: center;
+        height: fit-content;
+        padding: 0;
+    }
+
+    .section .description .titulo {
+        max-width: none;
+    }
+
+    .section .social {
+        position: static;
+    }
+
+    .section .social ul {
+        padding: 40px;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 414px) {
+    .section .logo-container {
+        margin: 48px 0 0 22px;
+    }
+
+    .section .illustration img,
+    .section .description {
+        max-width: 310px;
+    }
+
+    .section .description .titulo {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    .sign-up-btn {
+        height: 45px;
+        line-height: 0px;
+    }
+
+    .section .logo-container{
+        max-width: 210px;
+        max-height: 42px;
+        margin-bottom: 5px;
+    }
+}
