@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Link
 
-- Live Site URL: [HUDDLE - Simple Landing Page](https://als-samara.github.io/huddle-simple-landing-page/)
+- Live Site URL: [HUDDLE - Single Landing Page](https://als-samara.github.io/huddle-single-landing-page/)
 
 ## My process
 
