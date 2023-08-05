@@ -6,7 +6,7 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background: url('../images/bg-desktop.svg') center center no-repeat;
     background-size: cover;
 }
 
@@ -73,6 +73,7 @@ body {
     transition: 0.3s ease-in-out;
     cursor: pointer;
     margin-top: 10px;
+    box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.4);
 }
 
 .section .description a {
@@ -82,7 +83,7 @@ body {
 .section .description .sign-up-btn:hover {
     background-color: var(--primary-color-2);
     color: #fff;
-    box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.4);
+    
 }
 
 .section .social {
@@ -112,7 +113,7 @@ body {
 }
 
 .social ul li a:hover {
-    color: var(--primary-color-2);
-    border: 2px solid var(--primary-color-2);
+    color: #e450a1;
+    border: 2px solid #e450a1;
     transition: 0.2s ease-in-out;
 }
